@@ -9,5 +9,7 @@ Git is a version control software. It is a mature, actively maintained open sour
 
 Git is an example of a DVCS (hence Distributed Version Control System). Rather than have only one single place for the full version history of the software as is common in once-popular version control systems like CVS or Subversion (also known as SVN), in Git, every developer's working copy of the code is also a repository that can contain the full history of all changes.
 
-
-
+## How Git works?
+Git stores projects in repositories. Commits are made to the project and they tell Git that you are satisfied with the new or changed code you created.
+New code/changes are committed on branches. Most of the work is committed on other branches and then merged with the master branch. All this is stored in the same directory as the project but in a sub-folder called .git.
+To share the code with your colleagues you push the changes to the repository. To get the new code from your colleagues, you pull changes from the repository.
