@@ -7,3 +7,15 @@ Version control, also known as source control, is the practice of tracking and m
 ## What is git?
 Git is a version control software. It is a mature, actively maintained open source project originally developed in 2005 by Linus Torvalds, the famous creator of the Linux operating system kernel. A staggering number of software projects rely on Git for version control, including commercial projects as well as open source.
 
+## Basic Git Commands
+
+A) Setting up your identity:
+
+Configure the author name and email address to be used with your commits.
+Note that Git strips some characters (for example trailing periods) from user.name.
+
+```
+git config --global user.name "Sam Smith"
+git config --global user.email sam@example.com
+```
+
